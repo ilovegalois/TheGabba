@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 public class PlayerManager : MonoBehaviour
 {
 
@@ -20,7 +18,7 @@ public class PlayerManager : MonoBehaviour
         health = GetComponent<Health>();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        anim.SetBool("Dead", false);
+        anim.SetBool("Walking", false);
 
         health.OnDie += OnDeath;
         dead = false;
@@ -31,23 +29,36 @@ public class PlayerManager : MonoBehaviour
         movement.y = joystick.Vertical;
 
 
-        if ((movement.x != 0 && movement.y != 0) && !dead)
+        if ((movement.x != 0 || movement.y != 0) && !dead)
         {
+            movement = LinearMovement(movement);
             anim.speed = 1;
-            anim.SetBool("Dead", dead);
+            anim.SetBool("Walking", true);
             Move();
         }
         else
         {
-            anim.Play("Movement", 0, 0.9f);
-            anim.speed = 0;
+            anim.SetBool("Walking", false);
         }
+    }
+
+    public Vector2 LinearMovement(Vector2 directions)
+    {
+        Vector2 retDirect;
+        retDirect.x = Math.Abs(directions.x)> Math.Abs(directions.y)?directions.x:0;
+        retDirect.y = Math.Abs(directions.y)> Math.Abs(directions.x)?directions.y:0;
+        if(Math.Abs(directions.x)==Math.Abs(directions.y))
+        {
+             retDirect.x = directions.x;
+        }
+
+        return retDirect;
     }
 
     private void Move()
     {
-        anim.SetFloat("Horizontal", movement.x);
-        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("m_Hor", movement.x);
+        anim.SetFloat("m_Vert", movement.y);
 
         rb.MovePosition(rb.position + movement * Time.fixedDeltaTime);
     }

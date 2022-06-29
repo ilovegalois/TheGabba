@@ -1,0 +1,2256 @@
+fileFormatVersion: 2
+guid: d00f1818f30508d42a22b896e002b072
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 217, z: 622, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pur_Up_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 695
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a70d252f5554ec41a503f96341114d7
+      internalID: -784681082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Up_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 698
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42248001f826d344a9dbb3458236cbb
+      internalID: 90215698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Up_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 695
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18195aff15151b4aadfdd60cca32e04
+      internalID: -755143313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Up_0
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 695
+        width: 51
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd9553c952e84946aff79ce21ea1afe
+      internalID: 1086511804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Up_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 698
+        width: 57
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb26cc47970e6840bf2564424c67464
+      internalID: -618608310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Up_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 695
+        width: 52
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ee3f8e8f46f754fb4999b602d01418
+      internalID: 1402186263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Up_0
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 695
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22409ccc7a7e31744961b572ad223a3f
+      internalID: -2079593261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Up_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 698
+        width: 74
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525c3e88f842e514f9136dffeb5c1c83
+      internalID: 930523083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Up_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 695
+        width: 66
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e58fd6eb5b0204792b2e2260a66a14
+      internalID: -1269215127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Up_0
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 695
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e63a79b56fd924aa9fd82d3108e17b
+      internalID: 1396877751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Up_1
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 698
+        width: 73
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894b591b46c9b464fbf0f7af33b7b0b9
+      internalID: -1031556668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Up_2
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 695
+        width: 66
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c133668238cd40644a70ea265aaf0783
+      internalID: -2138765442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Right_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 596
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c393b0913112fbb41aa4c2db4c6ee10c
+      internalID: 1488456654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Right_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 599
+        width: 33
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7da1c7cd6f09744bc540d324388d82
+      internalID: 573277993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Right_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 596
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268127466005d7743843154ea4841846
+      internalID: 31198153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Right_0
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 596
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4505c53d1e9f8104fa0f1c0883e97637
+      internalID: -503422770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Right_1
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 599
+        width: 42
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d2a301c7381cd45a606377d461de69
+      internalID: 986006165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Right_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 596
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da179181f34e8e644af905911dcfec0d
+      internalID: -1171744957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Right_0
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 599
+        width: 44
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0b36b9d1c25d64086ad671896c31df
+      internalID: 1456749792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Right_1
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 599
+        width: 40
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d3d7c2f3e08d0438bf66e0ec7fbaab
+      internalID: 150615854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Right_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 599
+        width: 39
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2009e90cd659eaf4f98f7961240fd42b
+      internalID: -1346587322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Right_0
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 599
+        width: 44
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf149d1586ce6e46b3bd80e867d8be2
+      internalID: 406053770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Right_1
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 599
+        width: 40
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e815b50430ad94087dea006e5b2f77
+      internalID: 18166374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Right_2
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 600
+        width: 38
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bbeb805e33c4444817b50b3c25e52f
+      internalID: 1696976862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Down_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 499
+        width: 41
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca0c1c6c25811448bafe4dfb8957484
+      internalID: -1068002613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Down_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 502
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941d10468dddc7b4fa7b2396bc084bd2
+      internalID: -1833789659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Down_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 498
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53be519f96836c34ab1e3a70ca484e7f
+      internalID: 928353398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Down_0
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 499
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce97d447e1faf34289567989bf3721b
+      internalID: 571138333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Down_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 502
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53314bf93fd56e3478283a1584302bbe
+      internalID: -1340466831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Down_2
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 499
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7259376a82f197247b2aaf45b34e07b6
+      internalID: 714902587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Down_0
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 499
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2db9219b764520449581b0bf86bc8e2
+      internalID: 2004973750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Down_1
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 502
+        width: 74
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c7845c7b1b82c4aa266e5ad78edc86
+      internalID: -1167721048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Down_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 499
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adfd5edb1794b443bb18f55c0ea372e
+      internalID: 216357837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Down_0
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 499
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1299a2ad4183a140b2a0aaf725c8038
+      internalID: -1621264160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Down_1
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 502
+        width: 73
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea532c4364806242be9c396e561a684
+      internalID: 2134883150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Down_2
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 499
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242bd5b665161c649bdacd93ff2e9f73
+      internalID: -2047413858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Left_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 400
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b3a362afb88dd4c9840d1871b90bb4
+      internalID: -395138526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Left_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 403
+        width: 32
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a18fa764747fe4582eac0a1e4b1842
+      internalID: -613461950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pur_Left_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 400
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aea869846a4b7e4dac5096971ca02ba
+      internalID: -1638880533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Left_0
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 401
+        width: 53
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260edcccd7224944fa4d8a5fa452cacd
+      internalID: 1719262510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Left_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 403
+        width: 41
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f894019abfed29b4ba85877e8e60ac66
+      internalID: -649751873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daraco_Left_2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 400
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3059855180ece44190448c6ab9b01e1
+      internalID: 1708612783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Left_0
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 403
+        width: 39
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72e3d480e37d144a90d164d36771bab
+      internalID: -1941478361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Left_1
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 403
+        width: 40
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28db77c04331eac4d9dc10c422504665
+      internalID: -1241494931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hulk_Left_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 403
+        width: 44
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd6c521096d38445baaeef39849b2ae
+      internalID: 1532784771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Left_0
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 403
+        width: 38
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66b9d7e3f3bade4983fc90eae7e14cb
+      internalID: 1092092386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Left_1
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 403
+        width: 39
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c108f24530c43f74f9c999a39b96496b
+      internalID: 1303939893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rulk_Left_2
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 403
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c89c2905057014ba2d1038d9242c9e
+      internalID: -562389106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Up_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 303
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c84aa298f44f194ca17c8344d1e0085
+      internalID: 252008237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombiesChars_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 321
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a96f4ed585c9d4dbfcb6aeaf628a20
+      internalID: -1836808669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Up_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 306
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2220729b989ca1a438235bd22453a5dc
+      internalID: -1163482938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Up_2
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 303
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e919f0c98df9a409e07bb75413436c
+      internalID: -1410095594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Up_0
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 302
+        width: 45
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aa67ad9d691e34b94147d8b85f1f2a
+      internalID: -1087484373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Up_1
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 305
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50aad20db008b5c42b50dfb5ecba4942
+      internalID: -1135417090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Up_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 303
+        width: 45
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cd3c1d533062945a46b10c7afe4209
+      internalID: 1191565722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Up_0
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 303
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cf54b0b324bb54ea6f748515653f61
+      internalID: -713479020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Up_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 306
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da17a377bb47eb14889a19b8ddad4f18
+      internalID: 1957546759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Up_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 303
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b54eb00e33a824a9aadecb4e196b0e
+      internalID: -248463307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Up_0
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 303
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8c74aaeb8c81848b368116655e666b
+      internalID: -1706475923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Up_1
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 306
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348d78ba83992eb49a38e7287466c785
+      internalID: -1260374155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Up_2
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 303
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb5bf4a139ad874ab0c26fec7720459
+      internalID: -557489121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Right_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 204
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a9c0cd638a0a04e9d2ed35aafe8b68
+      internalID: 1255421028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Right_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 207
+        width: 33
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b7c94e3939a354daa37a6d8b0ddcbc
+      internalID: 299877875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Right_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 204
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344a8305967a4174d8290ba293d75c33
+      internalID: 1700024006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Right_0
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 204
+        width: 48
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4d425ddc870fe4284eecf74d6f0c77
+      internalID: 1699628000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Right_1
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 208
+        width: 44
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a258fe9d4e9da4d9ab0dc706f4c935
+      internalID: 1592750048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Right_2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 204
+        width: 49
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c9bedf70c84bc4cb76229a24beab0f
+      internalID: 139823200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Right_0
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 205
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6cdac2fad214549b83704b8899243f
+      internalID: 1397105648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Right_1
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 207
+        width: 32
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a607d030c2a84fd43ab6b3da777928f7
+      internalID: 1209811878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Right_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 204
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0204e91ca4a9bdf4f960f5b73ee5c7bc
+      internalID: -1960916422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Right_0
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 204
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785f007b0de7b374ea4ec4a121844a33
+      internalID: 1955382847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Right_1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 207
+        width: 32
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deebec6f42cd4054f9e462fa867d0dcb
+      internalID: 2043402678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Right_2
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 205
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9881bad58f4e14f984b5c2cd62b678
+      internalID: 1765827640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Down_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 107
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc1ecc13f03a8d4d85f638c9c7e4f87
+      internalID: 1299847367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Down_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 110
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99f164e3dc111d4b899fa55b8da7b61
+      internalID: 1280874564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Down_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 107
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6925c1d86a4f01b439788ba92fdb2692
+      internalID: -886954307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Down_0
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 107
+        width: 44
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189b8098340da17479a7ffc0c4462a4b
+      internalID: 1637163297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Down_1
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 109
+        width: 45
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5c9aea7d98e124ea3bfffa30df6d54
+      internalID: -1247583371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Down_2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 106
+        width: 44
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8874b818615ee084287a8705ae0cdc50
+      internalID: 62667262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Down_0
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 107
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215f6e05fe50f29438fa297536710c7f
+      internalID: -269678023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Down_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 110
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4b14042fb7fc34b8d5a7b6f6e5645f
+      internalID: 382854472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Down_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 107
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d721b89a17ea714d98c1ed2ccc90101
+      internalID: 653493384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Down_0
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 107
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8371ed6ea128e234dae550cc193d8e3b
+      internalID: -704826854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Down_1
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 110
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afb9f050a536b44099b97071b67d9fd
+      internalID: 2065902236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Down_2
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 107
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca66c02307b1ed4a992179dfddbb7fd
+      internalID: -748313680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Left_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 12
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade9a820fdda2454a9ba0901097294d0
+      internalID: -1836526393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Left_1
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 12
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c257f492921994ba518d13db9dd983
+      internalID: 180589369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Night_Left_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 12
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5ec824d33344942a532499c409cefa
+      internalID: 1002235590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Left_0
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 12
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1e76e8217aafa4daa00877407f7f6b
+      internalID: -2103113617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Left_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 13
+        width: 43
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34d944d2646d824e9d20b10d2983365
+      internalID: -785031670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vamp_Left_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 13
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c80530ae5bfed4d81ba4743c144c87
+      internalID: -2090499402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Left_0
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 13
+        width: 44
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2f2711157cab94eaa99cfad82b80f6
+      internalID: -1520092968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Left_1
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 13
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2813fd6d1d35c5a4d969c785c8900e99
+      internalID: -272059098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Griz_Left_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 13
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31ded92a82452945a9a1f8feec6b4d3
+      internalID: -1949672201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Left_0
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 13
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0218c6798747848b852db1b8408dc8
+      internalID: 1900784923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Left_1
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 13
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1d59d605e3f984db5f699978b9898c
+      internalID: 1265358107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slug_Left_2
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 13
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bdc0a815e16b14a93152b4518a6285
+      internalID: 1151111789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pur_Up_0: 90215698
+      Daraco_Left_0: -649751873
+      Vamp_Down_1: -1247583371
+      Daraco_Left_2: 1708612783
+      Night_Left_0: -1836526393
+      Night_Right_2: 1700024006
+      Daraco_Up_1: -618608310
+      Rulk_Down_2: -2047413858
+      Pur_Up_2: 1488456654
+      Vamp_Up_2: 1191565722
+      Hulk_Up_0: -2079593261
+      Pur_Down_2: -395138526
+      Griz_Left_0: -1520092968
+      Griz_Up_0: -713479020
+      Daraco_Left_1: -649751873
+      Daraco_Up_2: 1402186263
+      Griz_Right_1: 1209811878
+      Night_Down_1: 1280874564
+      Night_Left_1: 180589369
+      Slug_Down_2: -748313680
+      Hulk_Right_1: 150615854
+      Vamp_Right_2: 139823200
+      Rulk_Right_1: 18166374
+      Night_Right_1: 299877875
+      Griz_Left_1: -272059098
+      Griz_Left_2: -1949672201
+      Slug_Up_2: -557489121
+      Slug_Up_1: -1260374155
+      Slug_Right_1: 2043402678
+      Slug_Down_0: -704826854
+      Slug_Left_2: 1151111789
+      Hulk_Right_0: 1456749792
+      Rulk_Right_0: 406053770
+      Pur_Down_1: 928353398
+      Rulk_Left_2: -562389106
+      Griz_Down_2: 653493384
+      Slug_Right_0: 1955382847
+      Hulk_Up_2: -1269215127
+      Night_Up_1: -1163482938
+      Vamp_Left_0: -2103113617
+      Rulk_Up_1: -1031556668
+      Griz_Up_2: -248463307
+      Daraco_Down_2: 714902587
+      Vamp_Left_1: -785031670
+      Pur_Right_1: 31198153
+      Hulk_Down_2: 216357837
+      Rulk_Up_0: 1396877751
+      Night_Left_2: 1002235590
+      Rulk_Right_2: 1696976862
+      Rulk_Down_0: -1621264160
+      Daraco_Right_0: -503422770
+      Slug_Right_2: 1765827640
+      Slug_Left_1: 1265358107
+      Rulk_Up_2: -2138765442
+      Griz_Right_0: 1397105648
+      Hulk_Down_1: -1167721048
+      Vamp_Down_2: 62667262
+      Pur_Down_0: -1833789659
+      Slug_Down_1: 2065902236
+      Pur_Right_2: -1068002613
+      Daraco_Up_0: 1086511804
+      Rulk_Left_1: 1303939893
+      Griz_Right_2: -1960916422
+      Daraco_Down_0: 571138333
+      Vamp_Up_0: -1087484373
+      Griz_Down_0: -269678023
+      Pur_Left_2: 1719262510
+      Slug_Up_0: -1706475923
+      zombiesChars_49: -1163482938
+      Hulk_Down_0: 2004973750
+      Vamp_Down_0: 1637163297
+      Hulk_Left_2: 1532784771
+      Vamp_Left_2: -2090499402
+      Hulk_Up_1: 930523083
+      Hulk_Left_1: -1241494931
+      Griz_Up_1: 1957546759
+      Night_Right_0: 1255421028
+      Rulk_Left_0: 1092092386
+      Night_Up_0: 252008237
+      Hulk_Right_2: -1346587322
+      Vamp_Right_1: 1592750048
+      Daraco_Down_1: -1340466831
+      Slug_Left_0: 1900784923
+      Hulk_Left_0: -1941478361
+      Daraco_Right_2: -1171744957
+      Vamp_Up_1: -1135417090
+      Pur_Right_0: 573277993
+      Pur_Left_1: -1638880533
+      Vamp_Right_0: 1699628000
+      Pur_Left_0: -613461950
+      Daraco_Right_1: 986006165
+      Night_Up_2: -1410095594
+      Rulk_Down_1: 2134883150
+      Night_Down_2: -886954307
+      Griz_Down_1: 382854472
+      Night_Down_0: 1299847367
+      Pur_Up_1: -755143313
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

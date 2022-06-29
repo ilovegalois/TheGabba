@@ -1,10 +1,11 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class WeaponManager : MonoBehaviour
 {
-    [Header("Information")]
+    [Header("Information")]    
     [Tooltip("The name that will be displayed in the UI for this weapon")]
     public string WeaponName;
 
@@ -15,13 +16,15 @@ public class WeaponManager : MonoBehaviour
     public Transform WeaponMuzzle;
 
     [Tooltip("Goli hai bc")]
-    public GameObject goli;
+    public GameObject projectile;
 
     [Tooltip("Speed at which bullet will travel")]
-    public float bulletSpeed = 15f;
+    [Range(1f, 6f)]
+    public float bulletSpeed = 2f;
 
-    [Tooltip("Minimum duration between two shots")]
-    public float DelayBetweenShots = 0.5f;
+    [Tooltip("Dealy of Shoot in seconds")]
+    public float bulletDelay = 1f;
+    float nextShot = float.NegativeInfinity;
 
     [Tooltip("Angle for the cone in which the bullets will be shot randomly (0 means no spread at all)")]
     public float BulletSpreadAngle = 0f;
@@ -49,10 +52,30 @@ public class WeaponManager : MonoBehaviour
     public GameObject SourcePrefab { get; set; }
     public bool IsWeaponActive { get; private set; }
 
-    public void HandleShoot(Vector2 direction)
+
+    public void tryShoot(Vector2 direction, GameObject owner)
     {
-        GameObject bullet = Instantiate(goli, WeaponMuzzle.position, WeaponMuzzle.rotation);
+        //I don't know why i did this.
+        if (nextShot > Time.time + 6)
+        {
+            nextShot = Time.time;
+        }
+
+        if (Time.time > nextShot)
+        {
+            HandleShoot(direction, owner);
+
+        }
+    }
+    private void HandleShoot(Vector2 direction, GameObject owner)
+    {
+        GameObject bullet = Instantiate(projectile, WeaponMuzzle.position, WeaponMuzzle.rotation);
+        bullet.GetComponent<BulletProperties>().owner = owner;
+        Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), owner.GetComponent<Collider2D>());
+        
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(direction * bulletSpeed, ForceMode2D.Impulse);
-    }    
+
+        nextShot = bulletDelay + Time.time;
+    }
 }

@@ -983,10 +983,10 @@ TextureImporter:
       name: Alex_Shooting_Right_1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 48
-        width: 17
-        height: 23
+        width: 15
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1085,7 +1085,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alex_FullSet_3
+      name: Alex_Shooting_Up_3
       rect:
         serializedVersion: 2
         x: 79
@@ -1127,7 +1127,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alex_Shooting_Up_
+      name: Alex_Shooting_Left_2
       rect:
         serializedVersion: 2
         x: 111
@@ -1148,7 +1148,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alex_Shooting_Up_3
+      name: Alex_Shooting_Left_3
       rect:
         serializedVersion: 2
         x: 128
@@ -9997,7 +9997,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10018,7 +10018,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10039,7 +10039,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10060,7 +10060,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10081,7 +10081,7 @@ TextureImporter:
         width: 16
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10102,7 +10102,7 @@ TextureImporter:
         width: 15
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10125,12 +10125,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Alex_FullSet_352: -340176649
+      Alex_FullSet_125: -1435344895
       Alex_FullSet_76: 1624392639
-      Alex_Punch_Left_2: 1826301117
+      Alex_Punch_Left_3: 162272261
       Alex_FullSet_266: 364858464
       Alex_FullSet_309: 1410363906
-      Alex_Punch_Left_3: 162272261
+      Alex_FullSet_352: -340176649
       Alex_FullSet_87: 1581202934
       Alex_FullSet_241: -2131499847
       Alex_FullSet_47: 2129095651
@@ -10258,6 +10258,7 @@ TextureImporter:
       Alex_FullSet_53: -791714756
       Alex_FullSet_89: 1964847938
       Alex_FullSet_296: 309840609
+      Alex_Shooting_Left_3: 1206306967
       Alex_FullSet_188: -804322814
       Alex_FullSet_298: 2010185738
       Alex_WalkRight_4: 329191343
@@ -10283,6 +10284,7 @@ TextureImporter:
       Alex_FullSet_272: -161866774
       Alex_FullSet_21: 1951938906
       Alex_FullSet_295: 373567443
+      Alex_Shooting_Left_2: 433663304
       Alex_FullSet_408: 1050970783
       Alex_FullSet_220: 847823130
       Alex_FullSet_0: -497479745
@@ -10355,8 +10357,8 @@ TextureImporter:
       Alex_FullSet_132: -907571086
       Alex_FullSet_88: 46674626
       Alex_FullSet_406: 414608866
-      Alex_Shooting_Up_3: 1463067431
       Alex_FullSet_217: 303578977
+      Alex_Shooting_Up_3: -2026083047
       Alex_WalkRight_2: -917138793
       Alex_FullSet_214: -2080010902
       Alex_FullSet_57: 208007274
@@ -10392,17 +10394,17 @@ TextureImporter:
       Alex_FullSet_244: 112111587
       Alex_FullSet_396: -1375358347
       Alex_WalkRight_3: -876044202
-      Alex_WalkDown_1: -738012409
+      Alex_Punch_Down_2: 1918499141
       Alex_FullSet_154: -1027691389
       Alex_FullSet_303: 1229660225
       Alex_FullSet_35: -858368505
       Alex_FullSet_162: -2143388114
-      Alex_FullSet_311: -373700029
+      Alex_WalkDown_1: -738012409
       Alex_Shooting_Left_1: -185869706
       Alex_FullSet_8: 969938960
       Alex_FullSet_227: 727859419
+      Alex_FullSet_311: -373700029
       Alex_Punch_Left_0: -1071761298
-      Alex_Punch_Down_2: 1918499141
       Alex_FullSet_120: 1742905318
       Alex_FullSet_11: -716857285
       Alex_FullSet_218: 1699446363
@@ -10429,11 +10431,11 @@ TextureImporter:
       Alex_WalkLeft_1: 1033673990
       Alex_FullSet_64: -826235429
       Alex_FullSet_62: -320660921
-      Alex_FullSet_190: -1269576342
       Alex_FullSet_107: 1255058711
-      Alex_FullSet_212: 458760205
+      Alex_FullSet_190: -1269576342
       Alex_FullSet_66: 506562388
       Alex_FullSet_248: 212873277
+      Alex_FullSet_212: 458760205
       Alex_WalkUp_3: -1928462411
       Alex_FullSet_258: 571946335
       Alex_FullSet_81: 1604901732
@@ -10478,7 +10480,6 @@ TextureImporter:
       Alex_StandingLeft_2: -1444302751
       Alex_FullSet_297: 2050244944
       Alex_FullSet_383: 1938029790
-      Alex_Shooting_Up_: -124546891
       Alex_Punch_Down_5: 1027501717
       Alex_FullSet_48: 1762711089
       Alex_StandingDown_2: -1864931118
@@ -10510,10 +10511,9 @@ TextureImporter:
       Alex_FullSet_108: 2087481626
       Alex_FullSet_170: -1117282927
       Alex_FullSet_274: -759858589
-      Alex_FullSet_3: 575198091
       Alex_FullSet_137: -1326975598
-      Alex_FullSet_315: 131740276
       Alex_FullSet_416: -1165065566
+      Alex_FullSet_315: 131740276
       Alex_FullSet_202: 1091626465
       Alex_FullSet_25: -1751120977
       Alex_FullSet_358: -1853035307
@@ -10600,7 +10600,7 @@ TextureImporter:
       Alex_FullSet_405: -845012205
       Alex_WalkDown_0: -240900274
       Alex_Punch_Right_0: -1135589650
-      Alex_FullSet_125: -1435344895
+      Alex_Punch_Left_2: 1826301117
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
