@@ -11,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - Blocking
+  - Floor
+  - Collider
   - Actor
+  - Enemy
   - 
   - 
   - 
@@ -43,6 +43,9 @@ TagManager:
     locked: 0
   - name: Floor
     uniqueID: 2452402153
+    locked: 0
+  - name: Collider
+    uniqueID: 2062898601
     locked: 0
   - name: Actor
     uniqueID: 218299063

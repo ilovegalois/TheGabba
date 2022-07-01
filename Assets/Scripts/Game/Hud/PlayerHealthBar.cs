@@ -10,7 +10,7 @@ using UnityEngine.UI;
 
         void Start()
         {
-            PlayerManager m_Player = GameObject.FindObjectOfType<PlayerManager>();
+            PlayerController m_Player = GameObject.FindObjectOfType<PlayerController>();
             m_PlayerHealth = m_Player.GetComponent<Health>();
         }
 
