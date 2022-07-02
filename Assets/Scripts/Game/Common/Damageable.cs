@@ -15,7 +15,7 @@ public class Damageable : MonoBehaviour
     public float DamageMultiplier1 { get => damageMultiplier; set => damageMultiplier = value; }
     public float SensibilityToSelfdamage1 { get => sensibilityToSelfdamage; set => sensibilityToSelfdamage = value; }
 
-    void Awake()
+    void Start()
     {
         // find the health component either at the same level, or higher in the hierarchy
         Health = GetComponent<Health>();
@@ -48,6 +48,8 @@ public class Damageable : MonoBehaviour
             int OwnerAffiliation = GetComponent<Actor>().Affiliation;
             if (OwnerAffiliation != HitterAffiliation)
             {
+                Debug.Log($"Just got a hit registered of {totalDamage}");
+
                 Health.TakeDamage(totalDamage, damageSource);
             }
         }

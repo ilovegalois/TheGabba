@@ -11,10 +11,10 @@ public class CollisionDamage:MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-
         body = collision.gameObject.GetComponent<Damageable>();
         if(body != null)
         {
+
             body.InflictDamage(damage, false, collision.gameObject);
         }
     }
@@ -24,7 +24,7 @@ public class CollisionDamage:MonoBehaviour
         body = collision.gameObject.GetComponent<Damageable>();
         if (body != null)
         {
-            body.InflictDamage(damage * timeTouched / 1000, false, collision.gameObject);
+            body.InflictDamage(damage * timeTouched / 1000, false, this.gameObject);
             timeTouched++;
         }
     }

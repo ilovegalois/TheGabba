@@ -15,7 +15,7 @@ public class ZombieManager : MonoBehaviour
     public void RegisterEnemy(ZombieController enemy)
     {
         Enemies.Add(enemy);
-
+        
         NumberOfEnemiesTotal++;
     }
 
@@ -23,14 +23,6 @@ public class ZombieManager : MonoBehaviour
     {
         int enemiesRemainingNotification = NumberOfEnemiesRemaining - 1;
 
-        //This one needs to be worked give notificatin when eleminates an enemy but may be not needed.
-
-        //EnemyKillEvent evt = Events.EnemyKillEvent;
-        //evt.Enemy = enemyKilled.gameObject;
-        //evt.RemainingEnemyCount = enemiesRemainingNotification;
-        //EventManager.Broadcast(evt);
-
-        // removes the enemy from the list, so that we can keep track of how many are left on the map
         Enemies.Remove(enemyKilled);
     }
 }

@@ -15,13 +15,15 @@ public class BulletProperties : MonoBehaviour
         Destroy(gameObject, lifeTime);
     }
 
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
         Damageable dmgBody = collision.gameObject.GetComponent<Damageable>();
         if (dmgBody != null)
         {
             dmgBody.InflictDamage(damageInfliction, false, owner);
         }
+        Destroy(gameObject);
+
     }
 }
