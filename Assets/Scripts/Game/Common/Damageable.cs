@@ -44,12 +44,17 @@ public class Damageable : MonoBehaviour
             }
 
             // apply the damages only if affiliation is different
-            int HitterAffiliation = damageSource.GetComponent<Actor>().Affiliation;
-            int OwnerAffiliation = GetComponent<Actor>().Affiliation;
-            if (OwnerAffiliation != HitterAffiliation)
+            Actor hitActor = damageSource.GetComponent<Actor>();
+            if(hitActor != null) {
+                int HitterAffiliation = damageSource.GetComponent<Actor>().Affiliation;
+                int OwnerAffiliation = GetComponent<Actor>().Affiliation;
+                if (OwnerAffiliation != HitterAffiliation)
+                {
+                    Health.TakeDamage(totalDamage, damageSource);
+                }
+            }
+            else if(hitActor == null)
             {
-                Debug.Log($"Just got a hit registered of {totalDamage}");
-
                 Health.TakeDamage(totalDamage, damageSource);
             }
         }

@@ -8,6 +8,11 @@ using UnityEngine.UI;
 
 public class ZombieController : MonoBehaviour
 {
+    [Tooltip("Meth the vampire posses")]
+    public int methPossion = 5;
+    [Tooltip("Cash Prefab")]
+    public GameObject cashPrefab;
+
     [Tooltip("Speed of Player")]
     public float speed = 20f;
     [Tooltip("Node distance between rounded path")]
@@ -196,6 +201,9 @@ public class ZombieController : MonoBehaviour
     void OnDeath()
     {
         zombieManager.UnregisterEnemy(this);
+        RoundManager.roundMeth += methPossion;
+        Instantiate(cashPrefab, this.gameObject.transform.position, this.gameObject.transform.rotation);
+
         Destroy(this.gameObject);
     }
 }

@@ -15,6 +15,8 @@ public class RoundManager : MonoBehaviour
     int currentNumberZombie;
     int numberOfZombieTypes;
 
+    public static int roundMeth;
+    public static int roundCash;
 
     public GridGraph navGraph;
 
@@ -58,6 +60,11 @@ public class RoundManager : MonoBehaviour
         Vector3 pratiBimbh = navGraph.center;
 
         Vector2 point = new((Random.Range((pratiBimbh.x+spawnPointRadius), xW )* NegtPos()), Random.Range(pratiBimbh.y+spawnPointRadius, yD)*NegtPos());
+        while(Physics2D.OverlapCircle(point, 0.25f))
+        {
+            point = new((Random.Range((pratiBimbh.x + spawnPointRadius), xW) * NegtPos()), Random.Range(pratiBimbh.y + spawnPointRadius, yD) * NegtPos());
+        }
+
         return point;
     }
     float NegtPos() //???? ???? ??? ???? ???? ??????

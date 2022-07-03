@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using TMPro;
 public class RoundTimer : MonoBehaviour
 {
@@ -26,6 +27,13 @@ public class RoundTimer : MonoBehaviour
     void Update()
     {
         dClock();
+        if(roundTime == 0)
+        {
+            DataController.cashAmount += RoundManager.roundCash;
+            DataController.methAmount += RoundManager.roundMeth;
+
+            SceneManager.LoadScene("c_SurvivedScene");
+        }
     }
     void dClock()
     {

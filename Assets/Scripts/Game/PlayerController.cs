@@ -1,5 +1,7 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public class PlayerController : MonoBehaviour
 {
 
@@ -66,5 +68,8 @@ public class PlayerController : MonoBehaviour
     private void OnDeath()
     {
         dead = true;
+
+        Destroy(this.gameObject);
+        SceneManager.LoadScene("c_DeadScene");
     }
 }
