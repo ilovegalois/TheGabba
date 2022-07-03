@@ -16,6 +16,7 @@ public class RoundTimer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        roundTime = DataController.roundTime;
         currentTime = Mathf.FloorToInt(Time.time);
         mintues = Mathf.FloorToInt(roundTime / 60);
         seconds = Mathf.FloorToInt(roundTime % 60);

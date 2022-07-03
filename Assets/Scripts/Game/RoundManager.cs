@@ -6,7 +6,7 @@ using Pathfinding;
 
 public class RoundManager : MonoBehaviour
 {
-    public int numberOfZombies = 10;
+    public int numberOfZombies = DataController.numberOfZombies;
     public List<GameObject> typesOfZombies = new List<GameObject>();
 
     public float spawnPointRadius = 1f;

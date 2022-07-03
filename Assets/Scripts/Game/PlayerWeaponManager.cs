@@ -27,12 +27,13 @@ public class PlayerWeaponManager : MonoBehaviour
     private Vector2 StickPos;
     private Animator anim;
 
+
     void Start()
     {
         ActiveWeaponIndex = 0;
-        foreach (WeaponManager weapon in startingWeapon)
+        for (int i=0; i<=DataController.AllowedWeapons; i++)
         {
-            AddWeapon(weapon);
+            AddWeapon(startingWeapon[i]);           
         }
 
         SwitchWeapon(true);

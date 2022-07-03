@@ -9926,13 +9926,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Alex_FullSet_417
+      name: Alex_Death_0
       rect:
         serializedVersion: 2
         x: 144
         y: 16
-        width: 48
-        height: 22
+        width: 16
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10114,6 +10114,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Alex_Death_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5244aa13438214894d1af8808debb3
+      internalID: -1142484181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Alex_Death_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01eae59c3ce63054a9d2dd5d3c6908c7
+      internalID: -1138636470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -10157,7 +10199,6 @@ TextureImporter:
       Alex_Punch_Up_5: 2003426300
       Alex_FullSet_271: -827242092
       Alex_FullSet_340: 922264144
-      Alex_FullSet_417: 695184468
       Alex_FullSet_381: -1657145700
       Alex_FullSet_157: 1516642854
       Alex_FullSet_213: 812650193
@@ -10251,9 +10292,9 @@ TextureImporter:
       Alex_StandingLeft_1: 542578966
       Alex_FullSet_59: 1293159054
       Alex_Punch_Right_3: -1975166533
-      Alex_FullSet_182: 2115414981
-      Alex_FullSet_84: 1192573475
       Alex_FullSet_140: -1182649234
+      Alex_FullSet_84: 1192573475
+      Alex_FullSet_182: 2115414981
       Alex_FullSet_236: -347010830
       Alex_FullSet_53: -791714756
       Alex_FullSet_89: 1964847938
@@ -10277,6 +10318,7 @@ TextureImporter:
       Alex_FullSet_197: -1741247690
       Alex_FullSet_70: 398851513
       Alex_FullSet_256: 2087735094
+      Alex_Death_1: -1142484181
       Alex_FullSet_232: -47152369
       Alex_FullSet_193: -967254273
       Alex_FullSet_376: -65932156
@@ -10500,6 +10542,7 @@ TextureImporter:
       Alex_FullSet_199: -54085233
       Alex_FullSet_184: -693647625
       Alex_FullSet_19: 388061467
+      Alex_Death_2: -1138636470
       Alex_FullSet_174: 795224784
       Alex_FullSet_231: 408127520
       Alex_FullSet_286: 1586460334
@@ -10550,6 +10593,7 @@ TextureImporter:
       Alex_FullSet_186: 1197808503
       Alex_FullSet_294: -413471703
       Alex_FullSet_400: 1233182062
+      Alex_Death_0: -901261635
       Alex_FullSet_267: 1827945051
       Alex_FullSet_283: -650902399
       Alex_FullSet_29: -73666234

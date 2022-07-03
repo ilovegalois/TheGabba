@@ -67,9 +67,14 @@ public class PlayerController : MonoBehaviour
 
     private void OnDeath()
     {
+        anim.SetBool("Dead", true);
         dead = true;
+        Destroy(this.gameObject, 1f);
+        Invoke("LoadDeadScene", 0.5f);
 
-        Destroy(this.gameObject);
+    }
+    void LoadDeadScene()
+    {
         SceneManager.LoadScene("c_DeadScene");
     }
 }
