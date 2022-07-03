@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WeaponName: Pistol
-  WeaponIcon: {fileID: 0}
+  WeaponIcon: {fileID: -2089255099, guid: 6cfc119ffeb849243b26f47d497014a2, type: 3}
   WeaponMuzzle: {fileID: 3695628649708171912}
   projectile: {fileID: 2921982529618098966, guid: 57d2aebd33e96b24f9ba562321add188, type: 3}
   bulletSpeed: 2.45
