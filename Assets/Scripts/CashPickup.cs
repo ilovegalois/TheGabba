@@ -7,10 +7,15 @@ public class CashPickup : MonoBehaviour
     // Start is called before the first frame update
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.GetComponent<Actor>().Affiliation == 0)
+        Actor act = collision.gameObject.GetComponent<Actor>();
+        if (act != null)
         {
-            RoundManager.roundCash++;
-            Destroy(this.gameObject);
+            if (act.Affiliation == 0)
+            {
+                RoundManager.roundCash++;
+                Destroy(this.gameObject);
+
+            }
         }
     }
 }
