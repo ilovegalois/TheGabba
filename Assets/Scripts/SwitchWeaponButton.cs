@@ -12,6 +12,7 @@ public class SwitchWeaponButton : MonoBehaviour
     }
     public void OnSwitchWeapon()
     {
+        playerManager.GetActiveWeapon().gameObject.SetActive(false);
         playerManager.SwitchWeapon(true);
     }
 }

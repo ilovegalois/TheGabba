@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -12,6 +13,8 @@ public class PlayerWeaponManager : MonoBehaviour
     public Transform WeaponParentSocket;
     public int ActiveWeaponIndex { get; private set; }
     public int ActiveWeaponCount { get; private set; }
+    
+    public List<WeaponManager> startingWeapon;
 
     public WeaponManager[] m_WeaponSlots = new WeaponManager[4]; // 4 weapon slots
 
@@ -27,7 +30,7 @@ public class PlayerWeaponManager : MonoBehaviour
     void Start()
     {
         ActiveWeaponIndex = 0;
-        foreach (var weapon in m_WeaponSlots)
+        foreach (WeaponManager weapon in startingWeapon)
         {
             AddWeapon(weapon);
         }
@@ -94,7 +97,7 @@ public class PlayerWeaponManager : MonoBehaviour
             {
                 // spawn the weapon prefab as child of the weapon socket
                 WeaponManager weaponInstance = Instantiate(weaponPrefab, WeaponParentSocket);
-                weaponInstance.transform.localPosition = Vector3.zero;
+                weaponInstance.transform.localPosition = Vector2.zero;
                 weaponInstance.transform.localRotation = Quaternion.identity;
 
                 // Set owner to this gameObject so the weapon can alter projectile/damage logic accordingly
@@ -190,6 +193,7 @@ public class PlayerWeaponManager : MonoBehaviour
                 }
             }
         }
+        if (newWeaponIndex == -1) newWeaponIndex = ActiveWeaponIndex;
 
         // Handle switching to the new weapon index
         SwitchToWeaponIndex(newWeaponIndex);
@@ -210,6 +214,7 @@ public class PlayerWeaponManager : MonoBehaviour
     public void SwitchToWeaponIndex(int newWeaponIndex)
     {
         ActiveWeaponIndex = newWeaponIndex;
+        if(!m_WeaponSlots[ActiveWeaponIndex].gameObject.activeSelf) m_WeaponSlots[ActiveWeaponIndex].gameObject.SetActive(true);
     }
     int GetDistanceBetweenWeaponSlots(int fromSlotIndex, int toSlotIndex, bool ascendingOrder)
     {

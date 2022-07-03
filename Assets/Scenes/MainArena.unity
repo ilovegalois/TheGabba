@@ -659,7 +659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2929,7 +2929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.49019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -8762,6 +8762,18 @@ PrefabInstance:
       propertyPath: fireStick
       value: 
       objectReference: {fileID: 793612685}
+    - target: {fileID: 1618537309686861389, guid: b1cdfa0a07b7e234dbdd005cede37191, type: 3}
+      propertyPath: startingWeapon.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618537309686861389, guid: b1cdfa0a07b7e234dbdd005cede37191, type: 3}
+      propertyPath: m_WeaponSlots.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618537309686861389, guid: b1cdfa0a07b7e234dbdd005cede37191, type: 3}
+      propertyPath: startingWeapon.Array.data[0]
+      value: 
+      objectReference: {fileID: 3695628649388501441, guid: 1acbff02fab10eb439c0054428e94e8d, type: 3}
     - target: {fileID: 1618537311232590550, guid: b1cdfa0a07b7e234dbdd005cede37191, type: 3}
       propertyPath: m_Layer
       value: 8
