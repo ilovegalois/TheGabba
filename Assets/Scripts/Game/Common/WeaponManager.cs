@@ -53,6 +53,7 @@ public class WeaponManager : MonoBehaviour
     public bool IsWeaponActive { get; private set; }
 
 
+    Animator anim;
     public void tryShoot(Vector2 direction, GameObject owner)
     {
         //I don't know why i did this.
@@ -69,6 +70,10 @@ public class WeaponManager : MonoBehaviour
     }
     private void HandleShoot(Vector2 direction, GameObject owner)
     {
+        anim = owner.GetComponent<Animator>();
+        anim.SetBool("Shooting", true);
+        Invoke("EndAnimation", 1f);
+
         GameObject bullet = Instantiate(projectile, WeaponMuzzle.position, WeaponMuzzle.rotation);
         bullet.GetComponent<BulletProperties>().owner = owner;
         Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), owner.GetComponent<Collider2D>());
@@ -77,5 +82,9 @@ public class WeaponManager : MonoBehaviour
         rb.AddForce(direction * bulletSpeed, ForceMode2D.Impulse);
 
         nextShot = bulletDelay + Time.time;
+    }
+    public void EndAnimation()
+    {
+        anim.SetBool("Shooting", false);
     }
 }
