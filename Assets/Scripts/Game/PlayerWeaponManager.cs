@@ -55,14 +55,10 @@ public class PlayerWeaponManager : MonoBehaviour
             StickPos = EquateStick(StickPos);
             Shoot(StickPos);
         }
-        else
-        {
-            anim.SetBool("Shooting", false);
-        }
+
     }
     public void AnimateFire()
     {
-        anim.SetBool("Shooting", true);
 
         anim.SetFloat("f_Hor", StickPos.x);
         anim.SetFloat("f_Vert", StickPos.y);

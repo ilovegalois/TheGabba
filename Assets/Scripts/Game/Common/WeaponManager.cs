@@ -73,6 +73,7 @@ public class WeaponManager : MonoBehaviour
         anim = owner.GetComponent<Animator>();
         anim.SetBool("Shooting", true);
         Invoke("EndAnimation", 1f);
+        AudioSource.PlayClipAtPoint(ShootSfx, WeaponMuzzle.position);
 
         GameObject bullet = Instantiate(projectile, WeaponMuzzle.position, WeaponMuzzle.rotation);
         bullet.GetComponent<BulletProperties>().owner = owner;

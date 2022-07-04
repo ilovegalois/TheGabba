@@ -55,7 +55,7 @@ MonoBehaviour:
   BulletsPerShot: 1
   AimZoomRatio: 1
   ShellPoolSize: 1
-  ShootSfx: {fileID: 0}
+  ShootSfx: {fileID: 8300000, guid: c535c68fd2c96e14ebca72e863c79ad2, type: 3}
   ChangeWeaponSfx: {fileID: 0}
 --- !u!1 &3695628649708171913
 GameObject:
