@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class DataController : MonoBehaviour
 {
-    public static int methAmount;
-    public static int cashAmount;
+    public static int methAmount = 12;
+    public static int cashAmount = 26;
 
     public static int AllowedWeapons;
 

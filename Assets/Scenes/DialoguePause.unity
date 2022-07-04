@@ -361,14 +361,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Tuco''s men are all over the valley and this needs to a stop.
+  m_text: 'Tuco''s men are all over the valley and this needs a stop.
 
-    Find
-    and eliminate them. Also take these mashrooms, they will hide normal civilians
-    and reveal them in zombies form.
+    Find and
+    eliminate them. Also take these mashrooms, they will hide normal civilians and
+    reveal them in zombies form.
 
-    But beware taking these means they can
-    also find you from a distance.'
+    But beware taking these means they can also
+    find you from a distance.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
