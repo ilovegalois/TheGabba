@@ -1,3 +1,7 @@
-Cystal of South Valley
+# Crystal of South Valley
 
-I don't know what the hell....
+## Description
+This is 2d game with a Breaking Bad theme.
+
+## Motive
+Module 4 game project HITS.
